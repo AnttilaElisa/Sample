@@ -1,0 +1,1 @@
+print("Calculate fuel consumption")
