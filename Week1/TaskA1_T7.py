@@ -1,1 +1,0 @@
-print("Calculate fuel consumption")
