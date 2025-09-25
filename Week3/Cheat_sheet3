@@ -1,0 +1,18 @@
+#IF STATEMENT#
+print("Welcome to the program!")
+x = input("Enter the hour (0-23): ")
+hour = int(x)
+
+if(hour<7):
+    print("Zzz...")
+elif(hour<=8):
+    print("Time to go to class.")
+elif(hour<=12):
+    print("Morning classes are over, but you can still study in the afternoon.")
+else:
+    print("Maybe it's better to take a day off...Zzz...")
+
+print("\nThanks for visiting!")
+
+ #
+
