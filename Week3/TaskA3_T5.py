@@ -38,8 +38,8 @@ if(Choise == 1):
     Fahr = Cels * 1.8 + 32
     print(f"{round(Cels, 1)}°C equals to {round(Fahr, 1)}°F\n")
 elif(Choise == 2):
-    Fahr2 = input("Insert the amount of Fahrenheit: ")
-    Cels2 = (Fahr2 -32) / 1.8
+    Fahr2 = float(input("Insert the amount of Fahrenheit: "))
+    Cels2 = (Fahr2 - 32) / 1.8
     print(f"{round(Fahr2, 1)}°F equals to {round(Cels2, 1)}°C\n")
 elif(Choise == 3):
     print("Exiting...\n")
