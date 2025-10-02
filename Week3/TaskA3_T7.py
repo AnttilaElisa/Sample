@@ -39,7 +39,6 @@ print("#0 - Exit")
 #Your choice: 1
 Feed = input("Your choise: ")
 Choise = int(Feed)
-#Using one multi-branched decision structure.
 if(Choise == 1): 
     print("Using one multi-branched decision structure.")
     if(Value >= 400):
@@ -52,8 +51,8 @@ if(Choise == 1):
         #Value = Value + 11
         Value += 11
     print(f"Result is {Value}")
-elif(Choise == 2):
-     if(Value >= 400):
+if(Choise == 2):
+    if(Value >= 400):
         #Value = Value + 44
         Value += 44
     if(Value >= 200):
@@ -63,12 +62,11 @@ elif(Choise == 2):
         #Value = Value + 11
         Value += 11
     print(f"Result is {Value}")
-elif(Choise == 0):
+if(Choise == 0):
     print("Exiting...")
-else: 
+else:
     print("Unknown option")
-
 #Result is 272
-
+print("")
 #Program ending.
 print("Program ending.")
