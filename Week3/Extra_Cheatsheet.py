@@ -89,7 +89,7 @@ for i in range(9):
 # While loop esimerkki
 
 # while 1 < 10:
-#   print("Do not try me at home xddd")
+#   print("Do not try me at home xdddd")
 
 i = 0
 while i < 10:
